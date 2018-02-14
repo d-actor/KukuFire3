@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		17AF4F6B1F59CDBF00C02336 /* RNFirebaseLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AF4F6A1F59CDBF00C02336 /* RNFirebaseLinks.m */; };
+		6687FB7235A3DF562F313C0A /* libPods-RNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 236F80C0B788736DF9CB4FC3 /* libPods-RNFirebase.a */; };
 		8300A7AE1F31E143001B16AB /* RNFirebaseDatabaseReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 8300A7AD1F31E143001B16AB /* RNFirebaseDatabaseReference.m */; };
 		8323CF061F6FBD870071420B /* BannerComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323CEFF1F6FBD870071420B /* BannerComponent.m */; };
 		8323CF071F6FBD870071420B /* NativeExpressComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323CF011F6FBD870071420B /* NativeExpressComponent.m */; };
@@ -48,6 +49,8 @@
 		134814201AA4EA6300B7C361 /* libRNFirebase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNFirebase.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		17AF4F691F59CDBF00C02336 /* RNFirebaseLinks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNFirebaseLinks.h; sourceTree = "<group>"; };
 		17AF4F6A1F59CDBF00C02336 /* RNFirebaseLinks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNFirebaseLinks.m; sourceTree = "<group>"; };
+		236F80C0B788736DF9CB4FC3 /* libPods-RNFirebase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNFirebase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFD1EB2C50340B0FE940390 /* Pods-RNFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNFirebase/Pods-RNFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		8300A7AC1F31E143001B16AB /* RNFirebaseDatabaseReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNFirebaseDatabaseReference.h; sourceTree = "<group>"; };
 		8300A7AD1F31E143001B16AB /* RNFirebaseDatabaseReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNFirebaseDatabaseReference.m; sourceTree = "<group>"; };
 		8323CEFE1F6FBD870071420B /* BannerComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerComponent.h; sourceTree = "<group>"; };
@@ -89,6 +92,7 @@
 		839D91771EF3E22F0077C7C8 /* RNFirebaseEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNFirebaseEvents.h; path = RNFirebase/RNFirebaseEvents.h; sourceTree = "<group>"; };
 		83C3EEEC1FA1EACC00B64D3C /* RNFirebaseUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNFirebaseUtil.m; path = RNFirebase/RNFirebaseUtil.m; sourceTree = "<group>"; };
 		83C3EEED1FA1EACC00B64D3C /* RNFirebaseUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNFirebaseUtil.h; path = RNFirebase/RNFirebaseUtil.h; sourceTree = "<group>"; };
+		B4FB072474F109C6200316C3 /* Pods-RNFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNFirebase/Pods-RNFirebase.debug.xcconfig"; sourceTree = "<group>"; };
 		BA84AE551FA9E59800E79390 /* RNFirebaseStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNFirebaseStorage.h; sourceTree = "<group>"; };
 		BA84AE561FA9E59800E79390 /* RNFirebaseStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNFirebaseStorage.m; sourceTree = "<group>"; };
 		D950369C1D19C77400F7094D /* RNFirebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNFirebase.h; path = RNFirebase/RNFirebase.h; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6687FB7235A3DF562F313C0A /* libPods-RNFirebase.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +129,15 @@
 			path = RNFirebase/links;
 			sourceTree = "<group>";
 		};
+		272C6E25F6394DB7BAB354FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4FB072474F109C6200316C3 /* Pods-RNFirebase.debug.xcconfig */,
+				6BFD1EB2C50340B0FE940390 /* Pods-RNFirebase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +159,8 @@
 				83C3EEED1FA1EACC00B64D3C /* RNFirebaseUtil.h */,
 				83C3EEEC1FA1EACC00B64D3C /* RNFirebaseUtil.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				272C6E25F6394DB7BAB354FB /* Pods */,
+				DA8EEA314B733CD832C8294E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -283,6 +299,14 @@
 			path = RNFirebase/storage;
 			sourceTree = "<group>";
 		};
+		DA8EEA314B733CD832C8294E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				236F80C0B788736DF9CB4FC3 /* libPods-RNFirebase.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -290,9 +314,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNFirebase" */;
 			buildPhases = (
+				B7294C7CDD874B9EA598A39D /* [CP] Check Pods Manifest.lock */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
+				2AB131F619BA166E2C267094 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -333,6 +359,42 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AB131F619BA166E2C267094 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNFirebase/Pods-RNFirebase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7294C7CDD874B9EA598A39D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNFirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
@@ -446,6 +508,7 @@
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4FB072474F109C6200316C3 /* Pods-RNFirebase.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEFINES_MODULE = NO;
@@ -475,6 +538,7 @@
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BFD1EB2C50340B0FE940390 /* Pods-RNFirebase.release.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEFINES_MODULE = NO;
